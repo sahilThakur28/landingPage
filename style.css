@@ -1,0 +1,315 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color:white
+  }
+  .plan{
+    color:white
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: rgb(12 12 12);
+    color: beige;
+    font-size: 20px;
+    padding: 7px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+  }
+  
+  nav ul.plan {
+    list-style: none;
+  }
+  
+  nav ul.plan li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul.plan li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    
+    color: #000000;
+    text-align: center;
+    padding: 175px 0;
+}
+
+.hero h1 {
+    font-size: 69px;
+}
+
+.hero p {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #821300;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+/* About Section */
+.about {
+    /* background-color: rgba(247, 197, 140, 0.405); */
+    background-image:url(https://cdn.pixabay.com/photo/2022/02/21/12/01/weight-7026561_1280.jpg); 
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 34px;
+    line-height: 54px;
+    text-align: center;
+  }
+  
+  /* plan Section */
+  body, h1, h2, p, ul, li {
+    font-size: 32px;
+  }
+  .plan-section {
+    color: white;
+    background-color: #5a5a5af7;
+    padding: 80px 0;
+  }
+  
+  .plan-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .plan-section h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plan-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .plan-section ol {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  /* Events Section */
+  .events {
+    background-color: #FFF;
+    /* background-image: url(https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_1280.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    opacity: 0.86; 
+    padding: 80px 0;
+  }
+  
+  .events h2 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section2 table{
+    color: #000000;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section2 table th{ 
+    font-size: 25px;
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section2 table td{   
+    font-size: 25px;
+    border-bottom: 2px solid black; 
+} 
+.section2 h1 {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section2 ol {
+      color: #000000;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* trainer Section */
+  .trainer-section {
+    color: white;
+    background-image: url(https://wallpapercave.com/wp/wp8829387.jpg); 
+    background-color: #76491379;
+    padding: 80px 0;
+  }
+  
+  .trainer-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .trainer-section h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainer-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .trainer-section ol {
+    font-size: 25px;
+    text-align: left;
+  }
+
+/* Offers Section */
+.section3{
+    color: #000000;
+    background-image: url(https://wallpaperaccess.com/full/124383.jpg); 
+    background-color: rgba(247, 197, 140, 0.405);
+    padding: 80px 0;
+}
+
+.section3 h1{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section3 p{
+    color: #FFF;
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(219, 190, 127);
+    color: #000000;
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+
+.box ul{
+    
+    list-style-type: none;
+}
+
+.box ul li{
+    font-size: 1.5rem;
+   margin: 12px 2px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.btn{
+    padding:8px 13px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 75, 9);
+    
+}
+
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+    background-color: #FFF;
+    text-align: center;
+  
+}
+  
+  .contact h2 {
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact p {
+      color: #000000;
+
+  }
+
+
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+
+
+  
